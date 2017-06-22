@@ -1,4 +1,8 @@
-#title, #parameters, #articles {
+#title {
+    border-radius: 0 0 5px 5px;
+}
+
+#parameters, #articles {
     border-radius: 5px;
 }
 
@@ -7,24 +11,49 @@
     color: white;
     padding: 64px 0 64px 0;
     font-size: 48px;
+    margin-bottom: 24px;
 }
 
 #parameters {
-    background-color: green;
+    border: 2px solid rgb(44, 60, 104);
 }
 
-#articles {
-    background-color: yellow;
+#search {
+    margin-top: 49px;
 }
 
-#articlesTitle {
-    color: #ddd;
+#parameterTitle {
+    color: #eee;
     padding: 6px;
     font-weight: bold;
     font-size: 16px;
     background-color: rgb(44, 60, 104);
 
-    
+    position: absolute;
+    left: 0;
+    width: 100%; 
+}
+
+#parameters h1 {
+    font-size: 16px;
+}
+
+#articles {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    border: 2px solid rgb(44, 60, 104);
+}
+
+#articleTitle {
+    color: #eee;
+    padding: 6px;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: rgb(44, 60, 104);
+
+    position: absolute;
+    left: 0;
+    width: 100%;   
 }
 
 #articleList {
