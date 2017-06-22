@@ -1,6 +1,8 @@
 
 function ajaxSearch() {
-    var paramInput = {};
+    var paramInput = {
+        'api-key': '0310753a29ba4feea63b460306945a1e',
+    };
 
     var apiKey = '0310753a29ba4feea63b460306945a1e';
     var searchTerm = 'Bananas';
